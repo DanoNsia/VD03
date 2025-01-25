@@ -3,8 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Европейские приключения</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Главная</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">О нас</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Галерея</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slayder/eiffel.jpg" class="d-block w-100" alt="Эйфелева башня">
+    </div>
+    <div class="carousel-item">
+      <img src="slayder/colosseum.jpg" class="d-block w-100" alt="Колизей">
+    </div>
+    <div class="carousel-item">
+      <img src="slayder/brandenburg.jpg" class="d-block w-100" alt="Бранденбургские ворота">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+
+    <div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <img src="card/london.jpg" class="card-img-top" alt="Лондон">
+        <div class="card-body">
+          <h5 class="card-title">Лондон</h5>
+          <p class="card-text">Откройте для себя исторические достопримечательности и современную культуру.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <img src="card/barcelona.jpg" class="card-img-top" alt="Барселона">
+        <div class="card-body">
+          <h5 class="card-title">Барселона</h5>
+          <p class="card-text">Насладитесь архитектурой Гауди и почувствуйте ритм города.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card">
+        <img src="card/amsterdam.jpg" class="card-img-top" alt="Амстердам">
+        <div class="card-body">
+          <h5 class="card-title">Амстердам</h5>
+          <p class="card-text">Исследуйте каналы и музеи этого уникального города.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Исторический тур
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>-Описание:</strong> Исследуйте богатую историю Лондона, посетив Тауэр, Вестминстерское аббатство и Букингемский дворец. <br> <strong>-Продолжительность:</strong> 4 часа <br> <strong>-Включает:</strong> Экскурсию с гидом, входные билеты в музеи <br> <strong>-Лучшее время для посещения:</strong> Утро
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Архитектурный тур Гауди
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>-Описание:</strong> Исследуйте шедевры Антонио Гауди, включая Саграда Фамилия и Парк Гуэль. Узнайте больше о жизни и творчестве великого архитектора. <br> <strong>-Продолжительность:</strong> 5 часов <br> <strong>-Включает:</strong> Входные билеты, аудиогид <br> <strong>-Лучшее время для посещения:</strong> Вторая половина дня
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Ночная прогулка по кварталу Красных фонарей
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>-Описание:</strong> Узнайте больше о знаменитом квартале Красных фонарей и его истории. <br> <strong>-Продолжительность:</strong> 2 часа <br> <strong>-Включает:</strong> Экскурсию с гидом <br> <strong>-Лучшее время для посещения:</strong> Вечер
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="bg-light py-4 mt-4">
+  <div class="container text-center">
+    <p>Контакты: sibraevd@mail.ru | +7 (999) 696-69-69</p>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
